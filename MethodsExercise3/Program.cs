@@ -57,11 +57,11 @@ namespace MethodsExercise3
 
         public static void ThreeCount()
         {
-            Console.WriteLine("\nNow let's do 3 to 99 but by 3s:");
+            Console.WriteLine("\nNow let's do 3 to 999 but by 3s:");
 
             Enter();
 
-            for (int i = 3; i < 100; i += 3)
+            for (int i = 3; i < 1000; i += 3)
             {
                 Console.WriteLine(i);
             }
